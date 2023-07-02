@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Montserrat-Regular';
+  src: url('../public/Montserrat-Regular.ttf');
+}
+
+* {
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+@layer components {
+  .link {
+    @apply cursor-pointer font-semibold
+  }
+}
